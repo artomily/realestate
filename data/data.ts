@@ -1,4 +1,4 @@
-export const appartmentTypeData = [
+export const apartmentTypeData = [
   {
     id: 1,
     icon: "/images/a1.png",
