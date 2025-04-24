@@ -5,7 +5,7 @@ import { FaHouse } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <div className="pt-20 pb-12 bg-black">
+    <div id="contact" className="pt-20 pb-12 bg-black">
       <div className="w-[80%] mx-auto grid items-start grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 pb-8 border-b-[1.5px] border-white border-opacity-20">
         <div>
           <div className="flex items-center space-x-2">

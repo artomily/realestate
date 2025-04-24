@@ -10,3 +10,7 @@
     @apply text-white hover:text-green-500 text-base hover:underline cursor-pointer text-opacity-60 mb-3 w-fit;
   }
 }
+
+html{
+  scroll-behavior: smooth;
+}

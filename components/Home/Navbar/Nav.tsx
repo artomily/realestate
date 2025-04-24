@@ -48,11 +48,11 @@ const Nav = ({ openNav }: Props) => {
           {/* navbar */}
           {navLinks.map((navlink) => {
             return (
-              <Link key={navlink.id} href={navlink.url}>
+              <a key={navlink.id} href={navlink.url}>
                 <p className="font-medium hover:text-green-500">
                   {navlink.label}
                 </p>
-              </Link>
+              </a>
             );
           })}
         </div>

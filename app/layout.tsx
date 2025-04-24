@@ -24,7 +24,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
       </head>
-      <body className={font.className}>
+      <body className={`${font.className} scroll-smooth`} >
         <NavResponsive />
         {children}
         <Footer />

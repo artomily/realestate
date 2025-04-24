@@ -5,13 +5,18 @@ import BuildingFeatureCard from "./BuildingFeatureCard";
 
 const BuildingFeature = () => {
   return (
-    <div className="py-16 bg-gray-100">
+    <div id="features" className="py-16 bg-gray-100">
       <div className="w-[80%] mx-auto">
         <SectionHeading heading="Building Features" />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 items-center mt-14">
-          {buildings.map((build) => {
+          {buildings.map((build,i) => {
             return (
-              <div key={build.id}>
+              <div
+                key={build.id}
+                data-aos="fade-left"
+                data-aos-delay={i * 50}
+                data-aos-anchor-placement="top-center"
+              >
                 <BuildingFeatureCard build={build} />
               </div>
             );
