@@ -4,6 +4,8 @@ import ApartmentType from './ApartmentType/ApartmentType'
 import Properties from './Properties/Properties'
 import CityProperties from './CityProperties/CityProperties'
 import BuildingFeature from './BuildingFeature/BuildingFeature'
+import Reviews from './Reviews/Reviews'
+import Blog from './Blog/Blog'
 
 const Home = () => {
   return (
@@ -12,7 +14,9 @@ const Home = () => {
       <ApartmentType />
       <Properties />
       <CityProperties />
-      <BuildingFeature/>
+      <BuildingFeature />
+      <Reviews />
+      <Blog/>
     </div>
   )
 }
