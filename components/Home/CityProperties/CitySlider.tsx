@@ -1,9 +1,9 @@
 "use client";
 import { cities } from "@/data/data";
 import React from "react";
+import CityCard from "./CityCard";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import CityCard from "./CityCard";
 
 const responsive = {
   desktop: {
@@ -28,7 +28,7 @@ const CitySlider = () => {
     <Carousel
       arrows={true}
       autoPlay={true}
-      autoPlaySpeed={5000}
+      autoPlaySpeed={3000}
       responsive={responsive}
       infinite
     >
